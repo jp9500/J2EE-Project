@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#bg{
+    background-color: azure;
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    border-radius: 20px;
+    height: 90vh;
+    width: 90vh;
+    background-color: white;
+    box-shadow: 0 0 30px black;
+}
+h1{
+    font-size: xx-large;
+    padding: 20px;
+    text-align: center;
+}
+button{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    margin-left: 30px;
+    border-radius: 5px;
+}
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+input{
+	height: 20px;
+}
+td{
+	padding: 5px 20px;
+}
+#sub{
+	border: none;
+	position: relative;
+	left: 200px;
+	height: 35px;
+	width: 100px;
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+img{
+	height: 200px;
+	width: 200px;
+}

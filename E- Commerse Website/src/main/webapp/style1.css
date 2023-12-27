@@ -1,0 +1,49 @@
+@charset "ISO-8859-1";
+
+.bg{
+    background-color: azure;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#form{
+    border-radius: 20px;
+    height: 50vh;
+    width: 80vh;
+    box-shadow: 0 0 30px black;
+    text-align: center;
+    background-color: white;
+}
+input{
+    height: 20px;
+}
+table{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+button{
+    height: 30px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+td{
+	padding: 5px 20px;
+}
+#sub{
+	border: none;
+	position: relative;
+	left: 200px;
+	height: 35px;
+	width: 100px;
+	background-color: black;
+	color: white;
+	font-size: large;
+}
+h4{
+	color: red;
+}
